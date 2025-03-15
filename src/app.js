@@ -7,7 +7,7 @@ const {startServer} = require('./server/server')
 const main = () =>{
     startServer({
         port:envs.PORT,
-        public:envs.PUBLIC_PATH
+        public_path:envs.PUBLIC_PATH
     })
 }
 
